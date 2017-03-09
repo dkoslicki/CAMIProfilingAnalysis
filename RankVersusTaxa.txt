@@ -1,0 +1,29 @@
+cd /Users/dkoslicki/Dropbox/Repositories/firstchallenge_evaluation/profiling/data/submissions_evaluation
+find `pwd` -name description.properties
+#Example description.properties
+cat /Users/dkoslicki/Dropbox/Repositories/firstchallenge_evaluation/profiling/data/submissions_evaluation/ffeda87642a7d7275f31bb65/description.properties
+
+method_name=commonkmers
+version=sjanssen
+anonymous_name=thirsty_shockley_5
+pool_id=5510342c60b2b7a15b1ebbf5
+pool_name=1st CAMI Challenge Dataset 1 CAMI_low
+sample_id=2343454423452345
+sample_name=CAMI_low_S001
+competition_name=CAMI Challenge
+competition_id=5510342c60b2b7a15b1ebbf5
+_truth_type=filtered
+
+
+
+cat metrics.txt 
+Taxonomic Rank	Unifrac	L1norm	Sensitivity: TP/(TP+FN)	Precision: TP/(TP+FP)	True Positives	False Positives	False Negatives
+rank independent	9.25004835852	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.
+superkingdom	n.a.	0.00244249989902	1.0	0.5	1	1	0
+phylum	n.a.	0.863102437271	0.666666666667	0.8	4	1	2
+class	n.a.	1.28547084352	0.583333333333	0.875	7	1	5
+order	n.a.	1.2964474179	0.571428571429	0.8	8	2	6
+family	n.a.	1.44208971128	0.5	0.380952380952	8	13	8
+genus	n.a.	1.74035350831	0.318181818182	0.184210526316	7	31	15
+species	n.a.	1.76874175448	0.238095238095	0.0568181818182	5	83	16
+strain	n.a.	2.0	0.0	0.0	0	32	40
